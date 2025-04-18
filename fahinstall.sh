@@ -19,7 +19,7 @@ echo "Installing Folding@home client..."
 $SUDO apt install ./latest.deb
 
 # Prompt user to get their Folding@home token
-echo "Get your Folding@home token here: https://v8-4.foldingathome.org/machines"
+echo "Get your Folding@home token here: https://v8-4.foldingathome.org/account/settings"
 
 # Prompt for user inputs (token and machine name)
 read -p "Enter your Folding@home account token: " account_token
